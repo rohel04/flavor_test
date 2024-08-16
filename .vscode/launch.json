@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+      "name": "Launch development",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/main.dart",
+      "args": [
+        "--dart-define-from-file=env.json"
+      ]
+    },
+        {
+      "name": "Launch production",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/main.dart",
+      "args": [
+        "--dart-define-from-file=env_prod.json"
+      ]
+    },
+    ]
+}
